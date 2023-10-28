@@ -28,7 +28,7 @@ nav {
 .nav_container {
     margin: 0 auto;
     max-width: 1440px;
-    padding: 1.5rem 0;
+    padding: 1.5rem 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -37,6 +37,8 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
     justify-content: space-between;
     align-items: center;
     height: calc(100vh - 67px);
@@ -56,6 +58,8 @@ header p {
 
 .extra_info_container {
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
     justify-content: space-around;
     align-items: center;
 }
@@ -149,6 +153,8 @@ header .button:hover,  button:hover , nav .button:hover{
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .form_container form label {
@@ -201,6 +207,7 @@ header .button:hover,  button:hover , nav .button:hover{
     font-weight: 500;
     font-size: 50px;
     max-width: 550px;
+ 
 }
 
 
@@ -224,7 +231,7 @@ footer {
     justify-content: space-between;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 2rem 20px;
 }
 
 
