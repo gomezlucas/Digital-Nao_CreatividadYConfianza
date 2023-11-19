@@ -31,68 +31,139 @@
                 </div>
             </div>
             <div class="nav_button_container">
-                <a href="" class="button">Conocé más </a>
+                <a href="" class="button">Registrarme al curso </a>
             </div>
- 
         </div>
     </nav>
 
     <header>
-        <div>
-            <h1> Mejorá tus finanzas ya</h1>
-            <p> Conocé el curso de Caroline, una experta en la materia</p>
-            <div class="header_button_container">
+        <div style="width: 50%;">
+            <h1 style="margin-bottom: 1rem;"> El mejor curso para aprender sobre <span
+                    style="color:#E50E62">Finanzas</span></h1>
+            <p> Creado por Caroline, una experta en la matería, te ayudará a administrar tu dinero y mejorar tu
+                capacidad de ahorro en un&nbsp;100%.</p>
+            <!-- <div class="header_button_container">
                 <a href="" class="button">Conocé más </a>
-            </div>
+            </div> -->
         </div>
-        <div class="hero_img_container">
-            <img src="./images/header-img.svg" class="image_header" alt="imagen">
+        <div style="position:relative" class="hero_img_container">
+            <!--form-->
+            <div style="position: relative;z-index:1">
+                <div class="form_container">
+                    <form action="">
+                        <h2> Completa el formulario para obtener el Curso de Caroline</h2>
+                        <label for="firstName"> Nombre y Apellido</label>
+                        <input id="firstName" type="text">
+
+
+                        <div class="form_input_wrapper">
+                            <div class="form_input_group">
+                                <label for="phone"> Teléfono </label>
+                                <input id="phone" type="text">
+                            </div>
+                            <div class="form_input_group">
+                                <label for="country"> País </label>
+                                <select name="country" id="country">
+                                    <option value=""> Seleccione su país</option>
+                                    <option value=""> Argentina</option>
+                                    <option value=""> México</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <label for="email"> E-mail </label>
+                        <input id="email" type="email">
+                        <div class="form_button_wrapper">
+
+                            <button type="submit"> Quiero mejorar mis finanzas ya! </button>
+                            <p class="privacy_text"> *Tu privacidad es importante. Nunca compartiremos tu información
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!--form-->
+            <img style="position:absolute; top: 0; left: 0; z-index: 0;opacity:0.7;height:100%;object-fit: cover;"
+                src="./images/bg-img.jpg" class="image_header" alt="imagen">
         </div>
 
     </header>
 
     <section class="extra_info">
-        
-        <h2> Lorem Impsum</h2>
-         <div class="extra_info_container">
+
+        <h2> Un Curso, muchos beneficios</h2>
+        <div class="extra_info_container">
             <div class="extra_info_item">
                 <img src="./images/network.svg" alt="1">
-                <p>Lorem ipsum is the most well known filler text and comes from various passages of a book from Cicero,
-                    written in 45 BC.
+                <p>El curso es accesible a personas de todo el mundo y con diferentes niveles de experiencia.
                 </p>
             </div>
             <div class="extra_info_item">
                 <img src="./images/calendar.svg" alt="2">
-                <p>Lorem ipsum is the most well known filler text and comes from various passages of a book from Cicero,
-                    written in 45 BC.
+                <p> Enfocado en brindar las herramientas y el conocimiento para gestionar las finanzas de sus
+                    emprendimientos de forma práctica y eficiente, al corto y al largo plazo
                 </p>
             </div>
             <div class="extra_info_item">
                 <img src="./images/chart.svg" alt="3">
-                <p>Lorem ipsum is the most well known filler text and comes from various passages of a book from Cicero,
-                    written in 45 BC.
+                <p>Contamos con un espacio de aprendizaje y colaboración creciendo día a día. </p>
             </div>
         </div>
         </div>
     </section>
 
     <section class="form_section">
-        <h2> Completa el formulario </h2>
+        <h2> Lo que dicen nuestros usuarios </h2>
 
-        <div class="form_container">
+        <div class="review_card_container">
+            <div class="review_card">
+                <img class="review-img" src="./images/review-4.jpg" alt="">
+                <p>
+                    "Antes de tomar el curso de Caroline, estaba perdido en cuanto a las finanzas de mi emprendimiento.
+                    No tenía idea de cómo crear un plan financiero, gestionar las finanzas diarias o tomar decisiones
+                    financieras estratégicas. El curso me dio todo el conocimiento y las habilidades que necesitaba para
+                    poner mi negocio en orden."
+                    <br>
+                    <br>
+                    <b>Juan Pérez</b>
+                </p>
+            </div>
+            <div class="review_card">
+                <img class="review-img" src="./images/review-2.png" alt="">
+                <p>
+                    El curso de Caroline es un recurso imprescindible para cualquier emprendedor que quiera tener éxito.
+                    Caroline sabe de lo que habla y comparte su experiencia de forma generosa. El curso es muy práctico
+                    y fácil de seguir, y los recursos adicionales son muy útiles.
+                    <br>
+                    <br>
+                    <b>Pedro Rodríguez</b>
+                </p>
+            </div>
+            <div class="review_card">
+                <img class="review-img" src="./images/review-1.png" alt="">
+                <p>
+                    La comunidad me ha ayudado a superar muchos desafíos. He aprendido de los errores de otros
+                    emprendedores, y he recibido consejos valiosos de Caroline y otros expertos.
+                    Estoy muy contento de haber encontrado la comunidad de apoyo del curso de Caroline. Es un recurso
+                    invaluable para cualquier emprendedor.
+
+
+
+                    <br>
+                    <br>
+                    <b>Lucas Lopez</b>
+                </p>
+            </div>
+        </div>
+
+        <!-- <div class="form_container">
             <form action="">
-                <div class="form_input_wrapper">
-                    <div>
-                        <label for="firstName"> Nombre</label>
+                         <label for="firstName"> Nombre y Apellido</label>
                         <input id="firstName" type="text">
-                    </div>
-                    <div>
-                        <label for="lastName"> Apellido </label>
-                        <input id="lastName" type="text">
-                    </div>
+                  
 
-                </div>
-                <div class="form_input_wrapper">
+                 <div class="form_input_wrapper">
                     <div class="form_input_group">
                         <label for="phone"> Teléfono </label>
                         <input id="phone" type="text">
@@ -111,11 +182,11 @@
                 <input id="email" type="email">
                 <div class="form_button_wrapper">
 
-                    <button type="submit"> Conocé más </button>
+                    <button type="submit"> Quiero mejorar mis finanzas ya! </button>
                     <p class="privacy_text"> *Tu privacidad es importante. Nunca compartiremos tu información</p>
                 </div>
             </form>
-        </div>
+        </div> -->
     </section>
 
     <section class="users_section">
@@ -123,6 +194,25 @@
             Más de 1000 usuarios han mejorado su economía
         </p>
     </section>
+
+    <section class="cta_section">
+        <div class="cta_section_wrapper">
+        <p class="cta_section_text">
+            Registrate para conocer los consejos de la influencer en finanzas con más seguidores
+        </p>
+        <form class="cta_form">
+            <label for="email"> E-mail </label>
+            <input class="cta_section_input" id="email" type="email">
+            <div class="form_button_wrapper">
+
+                <button type="submit"> Quiero conocerlos! </button>
+                <p class="privacy_text"> *Tu privacidad es importante. Nunca compartiremos tu información
+                </p>
+            </div>
+        </form>
+    </div>
+    </section>
+
     <footer>
         <div class="footer_container">
             <div class="logo">

@@ -125,6 +125,7 @@ header .button:hover,  button:hover , nav .button:hover{
 .extra_info_item {
     padding: 2rem 2rem;
     display: flex;
+    width: 33.3%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -155,11 +156,19 @@ header .button:hover,  button:hover , nav .button:hover{
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: rgba(255, 255, 255, .7);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 17px;
 }
 
 .form_container form label {
     align-self: flex-start;
 }
+
+.form_container h2{
+    margin-bottom: 1rem;
+ }
 
 .form_container form input, .form_container form select {
     width: 100%;
@@ -199,6 +208,13 @@ header .button:hover,  button:hover , nav .button:hover{
     padding-bottom: 3rem;
 }
 
+
+.cta_section_wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
 .user_section_text {
     max-width: 1440px;
     color: white;
@@ -207,7 +223,44 @@ header .button:hover,  button:hover , nav .button:hover{
     font-weight: 500;
     font-size: 50px;
     max-width: 550px;
+}
+
  
+.cta_section_text {
+    max-width: 1440px;
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    font-size: 40px;
+    max-width: 550px;
+}
+
+.cta_section_input{
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: rem;
+    min-width: 190px;
+    font-size: 1rem;
+    font-family: montserrat;
+    padding: 0.6rem;
+    border-radius: 17px;
+    border: 1px solid #000;
+
+}
+
+.cta_form{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta_section{
+    margin: 0 auto;
+    /*background-color: #E3F0F2;*/
+    background-color: #feebf4;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -238,7 +291,10 @@ footer {
 .hero_img_container {
     position: relative;
      width: 50%;
-    height: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
 }
 .image_header{
@@ -300,4 +356,41 @@ margin-left: 15px;
 
 #path1009 {
     fill: white;
+  }
+
+
+  /* Reviews*/
+
+  .review_card_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        max-width: 900px;
+        margin: 8rem auto;
+
+  }
+
+
+  .review-img{
+    max-width: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: -44px;
+     margin: 0 auto;
+  
+  }
+
+
+  .review_card{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    background-color: #80808045;
+    border-radius: 17px;
+    padding: 2rem 1.5rem;
+  }
+
+  .review_card p{
+    text-align: center;
+    margin-top: 2rem;
   }
