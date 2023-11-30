@@ -44,6 +44,9 @@ header {
     height: calc(100vh - 67px);
 }
 
+
+
+
 h1 {
     font-size: 55px;
 }
@@ -97,7 +100,39 @@ button {
 header .button:hover,  button:hover , nav .button:hover{
     opacity: 0.8;
     cursor: pointer;
+}
 
+
+.header_ul{
+    padding-left:2rem ;
+    padding-top: 1rem;
+}
+
+.header_ul li{
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+
+.caro_presentation{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E1B4E;
+    height: calc(100vh - 67px);
+}
+
+.caro_presentation p {
+    color: white;
+    font-size: 25px;
+}
+
+.caro_presentation h2 {
+    color: white;
+    font-size: 40px;
 }
 
 .extra_info {
