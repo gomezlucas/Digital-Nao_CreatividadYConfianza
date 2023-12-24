@@ -191,7 +191,7 @@ header .button:hover,  button:hover , nav .button:hover{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
+ }
 .caro_presentation_img_wrapper img{
     width: 80%;
     border-radius: 8px;
@@ -215,6 +215,8 @@ header .button:hover,  button:hover , nav .button:hover{
 
     .caro_presentation_img_wrapper{
         padding-top: 4rem;
+        max-width: 364px;
+        margin: 0 auto;
     }
 
     .caro_presentation_img_wrapper img{
