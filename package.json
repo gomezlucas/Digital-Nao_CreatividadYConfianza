@@ -1,0 +1,42 @@
+{
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  },
+  "name": "neo-landing-page",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "commander": "^9.5.0",
+    "brace-expansion": "^2.0.1",
+    "fs.realpath": "^1.0.0",
+    "cssesc": "^3.0.0",
+    "glob": "^8.1.0",
+    "inherits": "^2.0.4",
+    "inflight": "^1.0.6",
+    "once": "^1.4.0",
+    "minimatch": "^5.1.6",
+    "nanoid": "^3.3.7",
+    "source-map-js": "^1.0.2",
+    "postcss": "^8.4.32",
+    "picocolors": "^1.0.0",
+    "postcss-selector-parser": "^6.0.13",
+    "util-deprecate": "^1.0.2",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build": "purgecss --css bootstrap.min.css --content index.html --output dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomezlucas/Digital-Nao_CreatividadYConfianza.git"
+  },
+  "author": "Lucas D Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gomezlucas/Digital-Nao_CreatividadYConfianza/issues"
+  },
+  "homepage": "https://github.com/gomezlucas/Digital-Nao_CreatividadYConfianza#readme",
+  "description": ""
+}
