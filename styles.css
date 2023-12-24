@@ -50,13 +50,7 @@ nav {
 
 }
 
-.nav_container {
-    margin: 0 auto;
-    max-width: 1440px;
-    padding: 1.5rem 20px;
-    display: flex;
-}
-
+ 
 .navbar>.container{
     justify-content: space-between!important;
     row-gap: 10px;
@@ -97,20 +91,6 @@ header p {
     max-width: 550px;
     margin-bottom: 0;
 }
-
-
-.header_button_container {
-    padding-top: 1.5rem;
-}
-
-.nav_button_container{
-    padding-top: 1rem;
-}
-
-.header-wrapper {
-    display: flex;
-}
-
 header .button, nav .button {
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
@@ -128,10 +108,7 @@ header .button, nav .button {
     right: 0;
 }
 
-header .button:hover,  button:hover , nav .button:hover{
-    opacity: 0.8;
-    cursor: pointer;
-}
+ 
 
 .header_ul{
     padding-left:2rem ;
@@ -373,6 +350,7 @@ margin-top: 2rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     border-radius: 17px;
+    margin-left: 1.5rem;
 }
 
 .form_container form label {
