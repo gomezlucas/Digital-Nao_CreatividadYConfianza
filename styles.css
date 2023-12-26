@@ -177,45 +177,7 @@ header .button, nav .button {
 
 /* END: Caro's presentation */
 
-
-/*  BEGIN: Media Queries  */
-@media only screen and (max-width: 991px) {
-    .header_img_container{
-         height: 100%;
-         width: 100%;
-         bottom: 0;
-    }
-
-    .hero_img_container {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .caro_presentation_img_wrapper{
-        padding-top: 4rem;
-        max-width: 364px;
-        margin: 0 auto;
-    }
-
-    .caro_presentation_img_wrapper img{
-        width: 100%;
-    }
-}
-
-
-@media only screen and (max-width: 450px) {
-    h1{
-       font-size: 35px;
-    }
-    .navbar>.container{
-        justify-content: center!important;
-        row-gap: 10px;
-        padding-top:10px;
-        padding-bottom:10px;
-    }
-}
-
-/* END: Media Queries  */
+ 
 
 /* BEGIN: ITEMS   */
 .extra_info {
@@ -490,4 +452,45 @@ footer {
 
 /* END: FOOTER */
 
- 
+ /*  BEGIN: Media Queries  */
+@media only screen and (max-width: 991px) {
+    .header_img_container{
+         height: 100%;
+         width: 100%;
+         bottom: 0;
+    }
+    .form_container form {
+    
+        margin-left: 0rem;
+    }
+  
+    .hero_img_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .caro_presentation_img_wrapper{
+        padding-top: 4rem;
+        max-width: 364px;
+        margin: 0 auto;
+    }
+
+    .caro_presentation_img_wrapper img{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    h1{
+       font-size: 35px;
+    }
+    .navbar>.container{
+        justify-content: center!important;
+        row-gap: 10px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+}
+
+/* END: Media Queries  */
